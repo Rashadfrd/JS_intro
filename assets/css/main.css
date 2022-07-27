@@ -1,0 +1,688 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#cards .container__popular-card .popular-card-inside .title-description .button .more a, #cards .container__buttons .fifth-button a, #cards .container__buttons .fourth-button a, #cards .container__buttons .third-button a, #cards .container__buttons .second-button a {
+  text-decoration: none;
+  color: black;
+}
+
+#cards .container__buttons {
+  width: 100%;
+  height: 32px;
+  margin-bottom: 3%;
+  display: flex;
+}
+#cards .container__buttons .first-button {
+  width: 120px;
+  background-color: #e3275f;
+  border-radius: 15px;
+  margin-right: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cards .container__buttons .first-button a {
+  text-decoration: none;
+  color: white;
+}
+#cards .container__buttons .second-button {
+  width: 120px;
+  background-color: #cbcbcc;
+  border-radius: 15px;
+  margin-right: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cards .container__buttons .third-button {
+  width: 120px;
+  background-color: #cbcbcc;
+  border-radius: 15px;
+  margin-right: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cards .container__buttons .fourth-button {
+  width: 120px;
+  background-color: #cbcbcc;
+  border-radius: 15px;
+  margin-right: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cards .container__buttons .fifth-button {
+  width: 120px;
+  background-color: #cbcbcc;
+  border-radius: 15px;
+  margin-right: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cards .container__popular-card {
+  width: 100%;
+}
+#cards .container__popular-card .popular-card-inside {
+  padding: 2% 5%;
+  width: 100%;
+  border-radius: 12px;
+  background-color: #dddde6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#cards .container__popular-card .popular-card-inside .title-description {
+  display: flex;
+  flex-direction: column;
+}
+#cards .container__popular-card .popular-card-inside .title-description .title {
+  margin-bottom: 5%;
+}
+#cards .container__popular-card .popular-card-inside .title-description .desc {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+#cards .container__popular-card .popular-card-inside .title-description .button {
+  display: flex;
+  align-items: center;
+}
+#cards .container__popular-card .popular-card-inside .title-description .button .order {
+  width: 35%;
+  background-color: #e3275f;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+#cards .container__popular-card .popular-card-inside .title-description .button .order a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+#cards .container__popular-card .popular-card-inside .title-description .button .order:hover {
+  background-color: #d90101;
+}
+#cards .container__popular-card .popular-card-inside .title-description .button .more {
+  width: 50%;
+  padding-left: 5%;
+}
+#cards .container__taksit-cards {
+  padding: 5% 0;
+}
+#cards .container__taksit-cards .title {
+  margin-bottom: 30px;
+}
+#cards .container__taksit-cards .umico {
+  position: relative;
+  top: 50px;
+}
+#cards .container__taksit-cards .umico .umico-inside {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #eeeef0;
+}
+#cards .container__taksit-cards .umico .umico-inside .title {
+  padding-left: 13px;
+}
+#cards .container__taksit-cards .umico .umico-inside .desc {
+  position: relative;
+  bottom: 10px;
+  margin-bottom: 15px;
+}
+#cards .container__taksit-cards .umico .umico-inside .image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100px;
+}
+#cards .container__taksit-cards .umico .umico-inside .image .img {
+  width: 80%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+#cards .container__taksit-cards .umico .umico-inside .buttons {
+  display: flex;
+}
+#cards .container__taksit-cards .umico .umico-inside .buttons .order {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .umico .umico-inside .buttons .order a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .umico .umico-inside .buttons .more {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .umico .umico-inside .buttons .more a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .umico .umico-inside .buttons .order:hover {
+  background-color: #d90101;
+}
+#cards .container__taksit-cards .umico .umico-inside .buttons .order:hover a {
+  color: white !important;
+}
+#cards .container__taksit-cards .umico .umico-inside .buttons .more:hover {
+  background-color: #d90101;
+}
+#cards .container__taksit-cards .umico .umico-inside .buttons .more:hover a {
+  color: white !important;
+}
+#cards .container__taksit-cards .cashback {
+  position: relative;
+  top: 50px;
+}
+#cards .container__taksit-cards .cashback .cashback-inside {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #eeeef0;
+}
+#cards .container__taksit-cards .cashback .cashback-inside .title {
+  padding-left: 13px;
+}
+#cards .container__taksit-cards .cashback .cashback-inside .desc {
+  position: relative;
+  bottom: 10px;
+  margin-bottom: 15px;
+}
+#cards .container__taksit-cards .cashback .cashback-inside .image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100px;
+}
+#cards .container__taksit-cards .cashback .cashback-inside .image .img {
+  width: 80%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+#cards .container__taksit-cards .cashback .cashback-inside .buttons {
+  display: flex;
+}
+#cards .container__taksit-cards .cashback .cashback-inside .buttons .order {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .cashback .cashback-inside .buttons .order a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .cashback .cashback-inside .buttons .more {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .cashback .cashback-inside .buttons .more a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .cashback .cashback-inside .buttons .order:hover {
+  background-color: #d90101;
+}
+#cards .container__taksit-cards .cashback .cashback-inside .buttons .order:hover a {
+  color: white !important;
+}
+#cards .container__taksit-cards .cashback .cashback-inside .buttons .more:hover {
+  background-color: #d90101;
+}
+#cards .container__taksit-cards .cashback .cashback-inside .buttons .more:hover a {
+  color: white !important;
+}
+#cards .container__taksit-cards .miles {
+  position: relative;
+  top: 50px;
+}
+#cards .container__taksit-cards .miles .miles-inside {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #eeeef0;
+}
+#cards .container__taksit-cards .miles .miles-inside .title {
+  padding-left: 13px;
+}
+#cards .container__taksit-cards .miles .miles-inside .desc {
+  position: relative;
+  bottom: 10px;
+  margin-bottom: 15px;
+}
+#cards .container__taksit-cards .miles .miles-inside .image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100px;
+}
+#cards .container__taksit-cards .miles .miles-inside .image .img {
+  width: 80%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+#cards .container__taksit-cards .miles .miles-inside .buttons {
+  display: flex;
+}
+#cards .container__taksit-cards .miles .miles-inside .buttons .order {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .miles .miles-inside .buttons .order a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .miles .miles-inside .buttons .more {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .miles .miles-inside .buttons .more a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .miles .miles-inside .buttons .order:hover {
+  background-color: #d90101;
+}
+#cards .container__taksit-cards .miles .miles-inside .buttons .order:hover a {
+  color: white !important;
+}
+#cards .container__taksit-cards .miles .miles-inside .buttons .more:hover {
+  background-color: #d90101;
+}
+#cards .container__taksit-cards .miles .miles-inside .buttons .more:hover a {
+  color: white !important;
+}
+#cards .container__taksit-cards .premium {
+  position: relative;
+  top: 50px;
+}
+#cards .container__taksit-cards .premium .premium-inside {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #eeeef0;
+}
+#cards .container__taksit-cards .premium .premium-inside .title {
+  padding-left: 13px;
+}
+#cards .container__taksit-cards .premium .premium-inside .desc {
+  position: relative;
+  bottom: 10px;
+  margin-bottom: 15px;
+}
+#cards .container__taksit-cards .premium .premium-inside .image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100px;
+}
+#cards .container__taksit-cards .premium .premium-inside .image .img {
+  width: 80%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+#cards .container__taksit-cards .premium .premium-inside .buttons {
+  display: flex;
+}
+#cards .container__taksit-cards .premium .premium-inside .buttons .order {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .premium .premium-inside .buttons .order a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .premium .premium-inside .buttons .more {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .premium .premium-inside .buttons .more a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__taksit-cards .premium .premium-inside .buttons .order:hover {
+  background-color: #d90101;
+}
+#cards .container__taksit-cards .premium .premium-inside .buttons .order:hover a {
+  color: white !important;
+}
+#cards .container__taksit-cards .premium .premium-inside .buttons .more:hover {
+  background-color: #d90101;
+}
+#cards .container__taksit-cards .premium .premium-inside .buttons .more:hover a {
+  color: white !important;
+}
+#cards .container__debet-cards {
+  padding: 5% 0;
+}
+#cards .container__debet-cards .title {
+  margin-bottom: 30px;
+}
+#cards .container__debet-cards .umico {
+  position: relative;
+  top: 50px;
+}
+#cards .container__debet-cards .umico .umico-inside {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #eeeef0;
+}
+#cards .container__debet-cards .umico .umico-inside .title {
+  padding-left: 13px;
+}
+#cards .container__debet-cards .umico .umico-inside .desc {
+  position: relative;
+  bottom: 10px;
+  margin-bottom: 15px;
+}
+#cards .container__debet-cards .umico .umico-inside .image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100px;
+}
+#cards .container__debet-cards .umico .umico-inside .image .img {
+  width: 80%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+#cards .container__debet-cards .umico .umico-inside .buttons {
+  display: flex;
+}
+#cards .container__debet-cards .umico .umico-inside .buttons .order {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .umico .umico-inside .buttons .order a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .umico .umico-inside .buttons .more {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .umico .umico-inside .buttons .more a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .umico .umico-inside .buttons .order:hover {
+  background-color: #d90101;
+}
+#cards .container__debet-cards .umico .umico-inside .buttons .order:hover a {
+  color: white !important;
+}
+#cards .container__debet-cards .umico .umico-inside .buttons .more:hover {
+  background-color: #d90101;
+}
+#cards .container__debet-cards .umico .umico-inside .buttons .more:hover a {
+  color: white !important;
+}
+#cards .container__debet-cards .cashback {
+  position: relative;
+  top: 50px;
+}
+#cards .container__debet-cards .cashback .cashback-inside {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #eeeef0;
+}
+#cards .container__debet-cards .cashback .cashback-inside .title {
+  padding-left: 13px;
+}
+#cards .container__debet-cards .cashback .cashback-inside .desc {
+  position: relative;
+  bottom: 10px;
+  margin-bottom: 15px;
+}
+#cards .container__debet-cards .cashback .cashback-inside .image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100px;
+}
+#cards .container__debet-cards .cashback .cashback-inside .image .img {
+  width: 80%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+#cards .container__debet-cards .cashback .cashback-inside .buttons {
+  display: flex;
+}
+#cards .container__debet-cards .cashback .cashback-inside .buttons .order {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .cashback .cashback-inside .buttons .order a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .cashback .cashback-inside .buttons .more {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .cashback .cashback-inside .buttons .more a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .cashback .cashback-inside .buttons .order:hover {
+  background-color: #d90101;
+}
+#cards .container__debet-cards .cashback .cashback-inside .buttons .order:hover a {
+  color: white !important;
+}
+#cards .container__debet-cards .cashback .cashback-inside .buttons .more:hover {
+  background-color: #d90101;
+}
+#cards .container__debet-cards .cashback .cashback-inside .buttons .more:hover a {
+  color: white !important;
+}
+#cards .container__debet-cards .miles {
+  position: relative;
+  top: 50px;
+}
+#cards .container__debet-cards .miles .miles-inside {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #eeeef0;
+}
+#cards .container__debet-cards .miles .miles-inside .title {
+  padding-left: 13px;
+}
+#cards .container__debet-cards .miles .miles-inside .desc {
+  position: relative;
+  bottom: 10px;
+  margin-bottom: 15px;
+}
+#cards .container__debet-cards .miles .miles-inside .image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100px;
+}
+#cards .container__debet-cards .miles .miles-inside .image .img {
+  width: 80%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+#cards .container__debet-cards .miles .miles-inside .buttons {
+  display: flex;
+}
+#cards .container__debet-cards .miles .miles-inside .buttons .order {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .miles .miles-inside .buttons .order a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .miles .miles-inside .buttons .more {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .miles .miles-inside .buttons .more a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .miles .miles-inside .buttons .order:hover {
+  background-color: #d90101;
+}
+#cards .container__debet-cards .miles .miles-inside .buttons .order:hover a {
+  color: white !important;
+}
+#cards .container__debet-cards .miles .miles-inside .buttons .more:hover {
+  background-color: #d90101;
+}
+#cards .container__debet-cards .miles .miles-inside .buttons .more:hover a {
+  color: white !important;
+}
+#cards .container__debet-cards .premium {
+  position: relative;
+  top: 50px;
+}
+#cards .container__debet-cards .premium .premium-inside {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #eeeef0;
+}
+#cards .container__debet-cards .premium .premium-inside .title {
+  padding-left: 13px;
+}
+#cards .container__debet-cards .premium .premium-inside .desc {
+  position: relative;
+  bottom: 10px;
+  margin-bottom: 15px;
+}
+#cards .container__debet-cards .premium .premium-inside .image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100px;
+}
+#cards .container__debet-cards .premium .premium-inside .image .img {
+  width: 80%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+#cards .container__debet-cards .premium .premium-inside .buttons {
+  display: flex;
+}
+#cards .container__debet-cards .premium .premium-inside .buttons .order {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .premium .premium-inside .buttons .order a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .premium .premium-inside .buttons .more {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .premium .premium-inside .buttons .more a {
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+}
+#cards .container__debet-cards .premium .premium-inside .buttons .order:hover {
+  background-color: #d90101;
+}
+#cards .container__debet-cards .premium .premium-inside .buttons .order:hover a {
+  color: white !important;
+}
+#cards .container__debet-cards .premium .premium-inside .buttons .more:hover {
+  background-color: #d90101;
+}
+#cards .container__debet-cards .premium .premium-inside .buttons .more:hover a {
+  color: white !important;
+}/*# sourceMappingURL=main.css.map */
